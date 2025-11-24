@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Picking - Dados da Empresa</title>
-    <link rel="stylesheet" type="text/css" href="CSS/dadosDaEmpresa.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/dadosDaEmpresa.css" media="screen" />
 </head>
 <body>
     <div class="sidebar">
         <h1>SMART <span style="color: #87A5CB;">PICKING</span></h1>
         <h2>Menu</h2>
         <ul>
-            <li><a href="dadosDaEmpresa.php">Início</a></li>
-            <li><a href="cadItens.php">Cadastrar itens</a></li>
-            <li><a href="retItens.php">Retirar itens</a></li>
-            <li><a href="vizEstoque.php">Visualizar estoque</a></li>
+            <ul>
+                <li><a href="dadosDaEmpresa.php">Início</a></li>
+                <li><a href="cadastrarItens.php">Cadastrar itens</a></li>
+                <li><a href="retirarItens.php">Retirar itens</a></li>
+                <li><a href="visualizarEstoque.php">Visualizar estoque</a></li>
+            </ul>
+
         </ul>
         <div class="logo-container">
             <img src="img/Logo.png" alt="Logo do Avião">

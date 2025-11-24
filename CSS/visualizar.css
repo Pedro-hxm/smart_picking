@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e6f3ff;
+    padding: 40px;
+}
+
+h1 {
+    color: #005b8f;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #007bb8;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    border: 1px solid #005b8f;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #bcd6e6;
+    font-size: 14px;
+}
+
+tr:hover td {
+    background: #f1faff;
+}

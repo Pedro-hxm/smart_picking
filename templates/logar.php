@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 if(isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['password']) && !empty($_POST['password'])) {
     
     require 'connect.php';
